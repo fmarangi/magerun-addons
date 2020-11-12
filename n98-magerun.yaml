@@ -1,0 +1,6 @@
+autoloaders_psr4:
+  FMarangi\Magerun\: %module%/src
+
+commands:
+  customCommands:
+    - FMarangi\Magerun\I18n\CollectPhrasesCommand

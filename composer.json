@@ -1,0 +1,22 @@
+{
+  "name": "fmarangi/magerun-addons",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Francesco Marangi",
+      "email": "francesco.marangi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FMarangi\\Magerun\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "n98/magerun": "^2.0"
+  }
+}
